@@ -1,13 +1,13 @@
 # Site settings
-title: BY Blog
-SEOTitle: 柏荧的博客 | BY Blog
+title: 爱胜晨
+SEOTitle: 爱晨 | BY Blog
 header-img: img/post-bg-desk.jpg
-email: qiubaiying@gmail.com
-description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, 柏荧的博客, qiubaiying, 邱柏荧, iOS, Apple, iPhone"
-url: "http://qiubaiying.github.io"          # your host, for absolute URL
+email: zczh1234521@163.com
+description: "XSCCDX"
+keyword: "BY, BY Blog, 爱晨的博客, qiubaiying, 陈德玺, Python, Java, Hadoop"
+url: "http://MrMichaelChen.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+github_repo: "https://github.com/MrMichaelChen/MrMichaelChen.github.io" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -18,13 +18,12 @@ sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's us
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
-zhihu_username:     qiubaiying
-github_username:    qiubaiying
-facebook_username:  baiying.qiu.7
-jianshu_username:   e71990ada2fd
-#twitter_username:   qiubaiying
-
+# weibo_username:     chendexi
+zhihu_username:     chendexi
+github_username:    chendexi
+facebook_username:  chendexi.chen.7
+jianshu_username:   ddc1b2117478
+#twitter_username:   chendexi
 
 
 
@@ -62,11 +61,11 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
+  clientID: 6a7ca3a615e6d1294b0d                            #生成的clientID
+  clientSecret: e89982100717a07e0d34f3f68a4f8457e46866e7    #生成的clientSecret
+  repo: MrMichaelChen.github.io    #仓库名称
+  owner: MrMichaelChen    #github用户名
+  admin: MrMichaelChen
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
@@ -74,11 +73,11 @@ gitalk:
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
+# ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_track_id: 'UA-119278579-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
@@ -99,11 +98,11 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
+            title: "Bing",
+        href: "http://cn.bing.com"
     },{
         title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
+        href: "http://www.jianshu.com/u/ddc1b2117478"
     },{
         title: "Apple",
         href: "https://apple.com"
@@ -112,3 +111,5 @@ friends: [
         href: "https://developer.apple.com/"
     }
 ]
+
+theme: jekyll-theme-minimal
