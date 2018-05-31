@@ -1,0 +1,50 @@
+---
+layout:     post
+title:      centos 7 搭建 gitlab
+subtitle:   
+date:       2018-05-23
+author:     CDX
+header-img: img/home-bg-art.jpg
+catalog: true
+tags:
+    - Aichen
+---
+# centos7 利用docker搭建GItlab仓库
+> 这第一句话，我们先从centos 7安装docker说起  
+> 话说这如何安装最新版的docker呢，先从官网找起。
+
+[link]: <https://about.gitlab.com/installation/>   官方安装教程
+这其中比价厉害的几条命令如下：
+```
+yum install -y yum-utils device-mapper-persistent-data lvm2
+yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+yum-config-manager --enable docker-ce-edge
+yum-config-manager --enable docker-ce-test
+yum install docker-ce-17.12.0.ce
+```
+centos启动docker
+```
+systemctl start docker
+```
+修改ssh的端口设置，将Port设置为没有占用的端口。例如：10022 
+```
+vim  /etc/sshd/ssh_config
+```
+使新设置的端口生效
+```
+semanage port -a -t ssh_port_t -p tcp 15678
+firewall-cmd --permanent --add-port=15678/tcp
+firewall-cmd --reload 
+```
+运行gitlab：
+```
+docker run \
+    --publish 443:443 --publish 80:80 --publish 22:22 \
+    --name gitlab \
+    --volume /u1/gitlab/config:/etc/gitlab \
+    --volume /u1/gitlab/logs:/var/log/gitlab \
+    --volume /u1/gitlab/data:/var/opt/gitlab \
+    gitlab/gitlab-ce
+```
+浏览器中输入宿主机IP登录即可
+参考链接：https://juejin.im/post/5a4c9ff36fb9a04507700fcc
