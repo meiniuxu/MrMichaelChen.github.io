@@ -2,12 +2,12 @@
 title: 爱胜晨
 SEOTitle: 爱晨 | BY Blog
 header-img: img/post-bg-desk.jpg
-email: zczh1234521@163.com
+email: 2541953731@qq.com
 description: "XSCCDX"
 keyword: "BY, BY Blog, 爱晨的博客, qiubaiying, 陈德玺, Python, Java, Hadoop"
-url: "http://MrMichaelChen.github.io"          # your host, for absolute URL
+url: "http://meiniuxu.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/MrMichaelChen/MrMichaelChen.github.io" # you code repository
+github_repo: "https://github.com/meiniuxu/meiniuxu.github.io" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
