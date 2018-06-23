@@ -1,10 +1,10 @@
 # Site settings
-title: 爱胜晨
-SEOTitle: 爱晨 | BY Blog
+title: 晨晨
+SEOTitle: 晨晨 | BY Blog
 header-img: img/post-bg-desk.jpg
 email: 2541953731@qq.com
 description: "XSCCDX"
-keyword: "BY, BY Blog, 爱晨的博客, qiubaiying, 陈德玺, Python, Java, Hadoop"
+keyword: "BY, BY Blog, 晨晨的博客, 陈不二, Python, Java, Hadoop"
 url: "http://meiniuxu.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/meiniuxu/meiniuxu.github.io" # you code repository
@@ -61,11 +61,11 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: 6a7ca3a615e6d1294b0d                            #生成的clientID
-  clientSecret: e89982100717a07e0d34f3f68a4f8457e46866e7    #生成的clientSecret
-  repo: MrMichaelChen.github.io    #仓库名称
-  owner: MrMichaelChen    #github用户名
-  admin: MrMichaelChen
+  clientID: bdf86de643ddb31cc06a                            #生成的clientID
+  clientSecret: 22fbdb17d782b61601d17862f34e29e63f1704de    #生成的clientSecret
+  repo: meiniuxu.github.io    #仓库名称
+  owner: meiniuxu    #github用户名
+  admin: meiniuxu
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
